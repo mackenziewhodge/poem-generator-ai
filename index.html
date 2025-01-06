@@ -7,23 +7,24 @@
     <title>Ai Poem Generator</title>
   </head>
   <body>
+    <div class="container"></div>
     <header>
-      <h1>Welcome to the Poem Generator!</h1>
+      <h1>ROBOT POEM GENERATOR</h1>
     </header>
 
     <main>
       <form>
         <input
+          class="instruction"
           type="text"
           placeholder="What would you like a poem about?"
           id=""
           required
-          autofocus
           autocomplete="off"
         />
-        <input type="submit" value="Generate" />
+        <input type="submit" class="generate-button" value="Generate" />
       </form>
-      <div id="poem-body">your poem will be displayed here</div>
+      <div class="poem">your poem will be displayed here</div>
     </main>
 
     <footer>
