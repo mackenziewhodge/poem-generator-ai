@@ -20,6 +20,7 @@ footer{
   font-size: 12px;
   margin-top: 30px;
   color: #2C4251;
+  opacity: 0.6;
 }
 form{
   padding:30px;
@@ -44,7 +45,7 @@ form{
   border-left:4px solid #0AFFD2;
   border-right: 4px solid #0AFFD2;
   box-shadow: 0px 20px 60px rgba(65,50,100,0.03);
-  border-radius: 10px;
+  border-radius: 15px;
 
 }
 .instruction{
