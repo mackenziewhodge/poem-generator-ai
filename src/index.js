@@ -10,7 +10,9 @@ axios.get(apiUrl).then(displayPoem);
   console.log("generating poem")
   console.log(`prompt:${prompt}`)
   console.log(`context: ${context}`)
-
+let poemElement=document.querySelector("#poem")
+poemElement.classList.remove("hidden");
+poemElement.innerHTML=`<div class="generating">Generating poem about ${instructionsInput.value}</div>`;
 }
 function displayPoem(response){
 new Typewriter("#poem",{

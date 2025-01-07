@@ -15,18 +15,22 @@
     </header>
 
     <main>
-      <form id="poem-form">
-        <input
-          class="instruction"
-          type="text"
-          placeholder="What would you like a poem about?"
-          id="user-instructions"
-          required
-          autocomplete="off"
-        />
-        <input type="submit" class="generate-button" value="Generate" />
-      </form>
-      <div class="poem" id="poem"></div>
+      <div class="form-container">
+        <form id="poem-form">
+          <input
+            class="instruction"
+            type="text"
+            placeholder="What would you like a poem about?"
+            id="user-instructions"
+            required
+            autocomplete="off"
+          />
+          <input type="submit" class="generate-button" value="Generate" />
+        </form>
+        <div class="hint">E.G frogs, flowers, Orcs...</div>
+      </div>
+
+      <div class="poem hidden" id="poem"></div>
     </main>
 
     <footer>
