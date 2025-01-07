@@ -26,6 +26,7 @@ form{
   display: flex;
 }
 .form-container{
+  color: #2C4251;
   padding:30px;
   background-color: white;
   border-radius: 15px;
@@ -66,7 +67,7 @@ form{
   padding: 15px;
   border: 3px solid #C2AFF0;
   width: 80%;
-  font-size: 16px;
+  font-size: 12px;
   border-radius: 50px;
 }
 
