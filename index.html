@@ -9,45 +9,46 @@
     <title>Ai Poem Generator</title>
   </head>
   <body>
-    <div class="container"></div>
-    <header>
-      <h1>ROBOT POEM GENERATOR</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>ROBOT POEM GENERATOR</h1>
+      </header>
 
-    <main>
-      <div class="form-container">
-        <form id="poem-form">
-          <input
-            class="instruction"
-            type="text"
-            placeholder="Enter a poem subject..."
-            id="user-instructions"
-            required
-            autocomplete="off"
-          />
-          <input type="submit" class="generate-button" value="Generate" />
-        </form>
-        <div class="hint">E.g frogs, flowers, Orcs...</div>
-      </div>
+      <main>
+        <div class="form-container">
+          <form id="poem-form">
+            <input
+              class="instruction"
+              type="text"
+              placeholder="Enter a poem subject..."
+              id="user-instructions"
+              required
+              autocomplete="off"
+            />
+            <input type="submit" class="generate-button" value="Generate" />
+          </form>
+          <div class="hint">E.g frogs, flowers, Orcs...</div>
+        </div>
 
-      <div class="poem hidden" id="poem"></div>
-    </main>
+        <div class="poem hidden" id="poem"></div>
+      </main>
 
-    <footer>
-      This project was coded by M. Hodge and is open sourced on
-      <a
-        href="https://github.com/mackenziewhodge/poem-generator-ai"
-        target="_blank"
-      >
-        Git Hub</a
-      >
-      and hosted on
-      <a
-        href="https://ai-poem-generator-project-2025.netlify.app/"
-        target="_blank"
-        >Netlify</a
-      >
-    </footer>
+      <footer>
+        This project was coded by M. Hodge and is open sourced on
+        <a
+          href="https://github.com/mackenziewhodge/poem-generator-ai"
+          target="_blank"
+        >
+          Git Hub</a
+        >
+        and hosted on
+        <a
+          href="https://ai-poem-generator-project-2025.netlify.app/"
+          target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>

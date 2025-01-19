@@ -2,7 +2,7 @@ a{
  color:#C2AFF0; 
 }
   body{
- background-color: #F5F6F4;
+ background-color: #0AFFD2;
  font-family: Arial, Helvetica, sans-serif;
 }
 h1{
@@ -20,7 +20,7 @@ footer{
   font-size: 12px;
   margin-top: 30px;
   color: #2C4251;
-  opacity: 0.6;
+  opacity: 0.8;
 }
 form{
   display: flex;
@@ -28,7 +28,7 @@ form{
 .form-container{
   color: #2C4251;
   padding:30px;
-  background-color: white;
+  background-color:#bdfff3;
   border-radius: 15px;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.03);
   margin-bottom: 30px;
@@ -44,14 +44,17 @@ form{
   display:none;
 }
 .container{
-  margin: 120px auto;
+  background:rgba(0,0, 0, 0.08);
+  padding:40px;
+  margin: 100px auto;
   max-width: 600px;
+  border-radius: 4px;
 }
 .poem{
   font-style: italic;
   font-size: 16px;
   color: #2C4251;
-  background-color: white;
+  background-color:#bdfff3;
   padding: 20px;
   line-height: 2;
   border-left:4px solid #0AFFD2;
@@ -61,7 +64,7 @@ form{
 
 }
 .poem strong{
-  color: #0AFFD2;
+  color:#C2AFF0 ;
 }
 .instruction{
   padding: 15px;
